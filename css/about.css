@@ -1,0 +1,72 @@
+.our-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+.our-story .img-our-story {
+  width: 95%;
+}
+.text-our-Story {
+  margin: 20px 25px 20px 0;
+}
+.text-our-Story h2 {
+  margin: 15px auto;
+}
+.text-our-Story h3 {
+  margin: 20px auto;
+}
+.text-our-Story p {
+  margin: 25px auto;
+}
+.our-goals {
+  margin: 40px 20px 60px;
+}
+.our-goals h2 {
+  margin: 20px auto;
+}
+.our-goals .p {
+  margin: 40px auto;
+}
+
+/*----------------------------grid-about-container start--------------*/
+.grid-about-container {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gol1" "gol2"
+    "gol1" "gol3";
+}
+#our-gol1 {
+  grid-area: gol1;
+}
+#our-gol2 {
+  grid-area: gol2;
+}
+#our-gol3 {
+  grid-area: gol3;
+}
+
+.grid-about-container .img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.our-goal1 {
+  background-image: url(/images/ourGoals_img1.png);
+}
+.our-goal2 {
+  background-image: url(/images/ourGoals_img2.png);
+}
+.our-goal3 {
+  background-image: url(/images/ourGoals_img3.png);
+}
+
+/*----------------------------grid-about-container end--------------*/

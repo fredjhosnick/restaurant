@@ -1,0 +1,121 @@
+.explore-menu {
+  margin: 40px 20px;
+}
+.text-explore-menu {
+  margin: 20px 0;
+}
+.text-explore-menu h2 {
+  margin: 20px 0;
+}
+
+.img-explore-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.card-explore-menu {
+  width: 90%;
+  height: 100%;
+  background-color: var(--secondary-dark-color);
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 10px;
+}
+.card-explore-menu img {
+  width: 50%;
+  height: 100%;
+
+  border-radius: 25px;
+}
+.card-explore-menu img:hover {
+  box-shadow: 2px 2px white;
+}
+.text-card-explore-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  margin: 0 15px;
+}
+.text-card-explore-menu h2 {
+  padding: 0 20px 0 0;
+}
+.text-card-explore-menu .stars {
+  width: 50%;
+  height: 15%;
+  margin: 0;
+  padding: 0;
+}
+.text-card-explore-menu .stars:hover {
+  box-shadow: none;
+}
+/*------- Section top-dishes start------*/
+.top-dishes-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 5px;
+}
+.card-dish {
+  width: 30%;
+  height: 150px;
+  padding: 3px;
+  border-radius: 10px;
+}
+.top-dishes-img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+.top-dishes-container .stars {
+  width: 50%;
+}
+.top-dishes > h2 {
+  margin: 20px;
+}
+/*------- Section top-dishes end------*/
+
+/*------- Section Breakfast start------*/
+.breakfast > h2 {
+  margin: 20px;
+}
+.breakfast-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+  margin: 20px;
+}
+.card-breakfast {
+  width: 22%;
+  height: 175px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--secondary-dark-color);
+}
+.breakfast-img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+.breakfast-img:hover {
+  box-shadow: 2px 2px 2px white;
+}
+.breakfast-container .stars {
+  width: 50%;
+}
+
+/*------- Section Breakfast end------*/
