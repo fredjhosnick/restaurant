@@ -33,13 +33,14 @@
 /*----------------------------grid-about-container start--------------*/
 .grid-about-container {
   width: 100%;
-  margin: 20px auto;
+  margin: 20px;
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr;
+
   grid-template-areas:
-    "gol1" "gol2"
-    "gol1" "gol3";
+    "gol1 gol2"
+    "gol1 gol3";
 }
 #our-gol1 {
   grid-area: gol1;
@@ -53,15 +54,6 @@
 
 .grid-about-container img {
   width: 100%;
-}
-
-.our-goal1 {
-}
-.our-goal2 {
-  background-image: url(/images/ourGoals_img2.png);
-}
-.our-goal3 {
-  background-image: url(/images/ourGoals_img3.png);
 }
 
 /*----------------------------grid-about-container end--------------*/
