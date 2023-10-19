@@ -50,17 +50,11 @@
   grid-area: gol3;
 }
 
-.grid-about-container .img {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-  height: 300px;
-  margin: 20px auto;
+.grid-about-container img {
+  width: 100%;
 }
 
 .our-goal1 {
-  background-image: url(/images/ourGoals_img1.png);
 }
 .our-goal2 {
   background-image: url(/images/ourGoals_img2.png);
